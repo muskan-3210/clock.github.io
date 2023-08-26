@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url("pocket-watch-2569573_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    background-image: radial-gradient( rgba(255, 255, 255, 0.842),rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.788),#000);
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-sizing: content-box;
+    border: 15px solid #2429316c;
+    box-shadow: 15px 15px 35px rgba(0, 0, 0, 0.623),
+    inset 0 0 30px rgba(0,0,0,0.4);
+}
+.hd{
+    position: absolute;
+    background-color: #000;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.hr{
+    height: 60px;
+    width: 10px;
+    top: 100px;
+}
+.min{
+    height: 80px;
+    width: 5px;
+    top: 80px;
+}
+.sec{
+    height: 90px;
+    width: 3px;
+    top: 70px;
+    background-color:#fff;
+}
